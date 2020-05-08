@@ -1,0 +1,183 @@
+ table tr td .button1 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: maroon 2px;
+    
+}
+.icon{
+    border-radius: 50px;
+    height: 25px;
+    margin-left: 130px;
+}
+.icon img{
+    border-radius: 100px;
+    height: 22px;
+    background-color: darkblue;
+    margin-left: 8px;
+    
+}
+.icon a.img{
+   height: 4px;
+   width: 6px;
+   float: left;
+   margin-left: 1px;
+    border-radius: 25%;
+    background-color: blue;
+}
+a.hover{
+    background-color: blue;
+
+}
+
+.intro{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title-icon {
+    margin: 0 auto;
+    max-width: 160px;
+    position: relative;
+    border-bottom: 1px solid #eeeeee !important;
+   border-radius: 17px;    
+}
+.title-Sicon img{
+margin-left: 550px;
+}
+header{
+    margin-right: 100px;
+}
+.header img{
+    float: left;
+    margin-right:50px;
+  margin-left: 130px;
+   margin-top: 5px;
+    width: 180px ; 
+    height: 55px;
+    
+}
+.row table td a img{
+  border: none; 
+  height: 370px; 
+  width: 80%;
+  margin-left: 10%;
+  border-collapse: separate;
+  border-spacing: 25px;
+}
+.slider{
+  scroll-behavior: inherit;
+  scroll-padding: 45;
+  direction: ltr;
+  background-color: rgb(240, 235, 235);
+  scroll-padding-block-end:23;
+  animation: duration 2m;
+  
+}
+.navbar {
+    float: left;
+    margin-right: 1px;
+    font-size: 20px;
+    margin-right: 8px;
+    margin-top: 15px ;
+    float:right;
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+  }
+  
+  
+  /* Links inside the navbar */
+  .navbar a {
+      font-size: 7px;
+      line-height: 1px;
+      margin-right: -4px;
+      margin-top: 5px;
+      border-radius: 50%;
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    margin-top: 5px;
+    overflow-x: 3px;
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+      line-height: 1px  ;
+   font-size: 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    border-radius: 15px  ;
+    font-family: inherit;
+    margin: 0; 
+  }
+  .navbar a:hover{
+      color: white;
+      border-radius :15px;
+      overflow-x: initial;
+
+  } 
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(56, 56, 243);
+    color: white;
+  }
+  .down{
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+      line-height: 3px;
+      font-size: 12px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(55, 33, 252);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.events{
+margin-top: -50px;
+}
+.events h2{
+  margin-top: 5px;
+}
+.events .marquee a{
+text-decoration: none;
+}
